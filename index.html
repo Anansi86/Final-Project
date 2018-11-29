@@ -9,7 +9,7 @@
     <link rel="icon" href="../../../../favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
 
-    <title>Gibli Films</title>
+    <title>Ghibli Films</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -21,20 +21,18 @@
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Studio Gibli</a>
+        <a class="navbar-brand" href="#">Studio Ghibli</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="https://en.wikipedia.org/wiki/Studio_Ghibli">Wiki Link</a>
             </li>
-        </ul>
-          </div>
+          </ul>
+          
+        </div>
       </nav>
     </header>
 
@@ -53,7 +51,7 @@
               <div class="carousel-caption text-left">
                 <h1>Howl's Moving Castle</h1>
                 <p>When a young girls town get's invaded by a witch who steals her youth. She must find a way to accept who she is and save her hero with love.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#Howl" role="button">Trailer</a></p>
               </div>
             </div>
           </div>
@@ -63,7 +61,7 @@
               <div class="carousel-caption">
                 <h1>Princess Mononoke</h1>
                 <p>What happens when industy gets in the way of nature? A war begins and two souls are left to mend these broken ties.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#Princess" role="button">Trailer</a></p>
               </div>
             </div>
           </div>
@@ -75,7 +73,7 @@
                 <p>Chihiro has found herself in a magical land alone. Her parents have turned into swines, and it's up to her to face her fears and find
                   a way to save her parents before her memory fades away forever.
                 </p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#Spirited" role="button">Trailer</a></p>
               </div>
             </div>
           </div>
@@ -107,17 +105,20 @@
 
         <!-- START THE FEATURETTES -->
 
+        
+
         <hr class="featurette-divider">
 
         <div class="row featurette">
             <div class="col-md-7">
-              <h2 class="featurette-heading">Howl's Moving Castle <span class="text-muted">2004</span></h2>
+              <h2  id="Howl"class="featurette-heading">Howl's Moving Castle <span class="text-muted">2004</span></h2>
                       
                   <iframe class="videoContainer__video" width="700" height="525" 
                   src="https://www.youtube.com/embed/iwROgK94zcM" frameborder="0" allowfullscreen></iframe>
              
             </div>
-         
+            <div class="col-md-5">
+              <img class="featurette-image img-fluid mx-auto" data-src="" >
             </div>
           </div>
   
@@ -125,29 +126,26 @@
   
           <div class="row featurette">
             <div class="col-md-7 order-md-2">
-              <h2 class="featurette-heading">Princess Mononoke <span class="text-muted">1997</span></h2>
+              <h2 id="Princess" class="featurette-heading">Princess Mononoke <span class="text-muted">1997</span></h2>
               
               <iframe class="videoContainer__video" width="700" height="525" 
             src="https://www.youtube.com/embed/4OiMOHRDs14" frameborder="0" allowfullscreen></iframe>
 
             </div>
-            <div class="col-md-5 order-md-1">
-              <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-            </div>
+            
           </div>
   
           <hr class="featurette-divider">
   
           <div class="row featurette">
             <div class="col-md-7">
-              <h2 class="featurette-heading">Spirited Away<span class="text-muted">2001</span></h2>
+              <h2 id="Spirited" class="featurette-heading">Spirited Away <span class="text-muted">2001</span></h2>
             
               <iframe class="videoContainer__video" width="700" height="525" 
               src="https://www.youtube.com/embed/ByXuk9QqQkk" frameborder="0" allowfullscreen></iframe>
             
             </div>
-            <div class="col-md-5">
-            </div>
+            
           </div>
           
         <hr class="featurette-divider">
@@ -157,11 +155,7 @@
       </div><!-- /.container -->
 
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+      
     </main>
 
     <!-- Bootstrap core JavaScript
